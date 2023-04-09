@@ -7,40 +7,54 @@
     <title>calculator</title>
     <style>
         body{
-            background-color:coral;
+          background-color: #3A4655;
+          
         }
         .title{
            font-size: 80px;
            font-weight: 700;
            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
            font-style: oblique;
-        margin-left: 2%;
-           color: black;
+        
+           color: white;
         }
         input[type="button"]{
-            font-size: 30px;
-            background-color: black;
+            font-size: 38px;
+            background: #425062;
             color: aliceblue;
-            width: 30px;
-            padding: 4px;
-            border: solid black 2px;
-          margin: 4px;
-            padding: 40px;
-            text-align: center;
+           width: 100px;
+            padding: 43px;
+            border: none;
+            border-color:#3C4857;
+            border-width: 1px 1px 0px 0;
+            border-style: solid;
+            border-radius: 10px;
+            margin: 8px;
+               
         }
+        input[type="button"]:hover{
+           background: #3e4b5c;
+        }
+
         input[type="text"]{
+          font-size: 41px;
             padding: 12px;
-            width: 300px;
-            background-color: aliceblue;
-            border: solid black 5px;
+            width: 320px;
+            height: 50px;
+            background-color: #727B86;
+            color: azure;
             margin-left: 10px;
+            border: solid black 2px;
+            border-radius: 3px;
+           
+            
          
             
         }
     </style>
 </head>
 
-<body><div style=" margin-left: 42%;">
+<body><div style=" margin-left: 36%;">
     <div class="title">Calculator  </div>
         <table >
         <tr colspan="3"><input type="text" id="result"></tr>
